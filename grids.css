@@ -1,0 +1,101 @@
+.gridPadre {
+    display:grid;
+    grid-template-columns: repeat 30% auto 30%;
+    grid-template-rows: 100px 150px 90px 120px;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    grid-template-areas: 
+        "hijo1 hijo2 hijo2"
+        "hijo3 hijo4 hijo5"
+        "hijo6 hijo6 hijo7" 
+        "hijo8 hijo9 hijo9";
+    background-color:lightblue;
+    border: solid 2px black;        
+}
+
+
+.gridHijo1 {
+    grid-area: hijo1;  
+    border: solid 2px black;
+    background-color:green;
+    justify-self: center;
+    align-self: center;
+    font-size: 18px;    
+}
+
+.gridHijo2 {
+    grid-area: hijo2;
+    border: solid 2px black;
+    background-color:rgb(0, 128, 107);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.gridHijo3 {
+    grid-area: hijo3; 
+    border: solid 2px black;
+    background-color:rgb(32, 221, 190);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;    
+}
+
+.gridHijo4 {
+    grid-area: hijo4;  
+    border: solid 2px black;
+    background-color:rgb(132, 241, 223);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.gridHijo5 {
+    grid-area: hijo5;
+    border: solid 2px black;
+    background-color:rgb(11, 53, 46);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.gridHijo6 {
+    grid-area: hijo6;
+    border: solid 2px black;
+    background-color:rgb(64, 112, 104);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    color:white;
+}
+
+.gridHijo7 {
+    grid-area: hijo7;
+    border: solid 2px black;
+    background-color:rgb(0, 128, 107);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.gridHijo8 {
+    grid-area: hijo8;
+    border: solid 2px black;
+    background-color:rgb(16, 255, 215);
+    text-align: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px; 
+}
+
+.gridHijo9 {
+    grid-area: hijo9;
+    border: solid 2px black;
+    background-color:rgb(4, 44, 37);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    color: white;
+}
